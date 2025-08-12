@@ -4,6 +4,7 @@ import "./Projects.css";
 
 function Projects() {
   const [projects, setProjects] = useState([]);
+  const [selectedProject, setSelectedProject] = useState(null);
 
   useEffect(() => {
     fetch("/database.json")
@@ -12,7 +13,6 @@ function Projects() {
       .catch((err) => console.error("Error loading projects:", err));
   }, []);
 
-  // Group projects by category
   const grouped = projects.reduce((acc, proj) => {
     const category = proj.category || "Uncategorized";
     if (!acc[category]) acc[category] = [];
@@ -26,16 +26,29 @@ function Projects() {
         <div key={category} className="CategorySection">
           <h1>{category}</h1>
           {items.map((proj, index) => (
-            <Project
-              key={index}
-              image={proj.image}
-              title={proj.title}
-              category={proj.category}
-              description={proj.description}
-            />
+            <div key={index} onClick={() => setSelectedProject(proj)}>
+              <Project
+                image={proj.image}
+                title={proj.title}
+                category={proj.category}
+                description={proj.description}
+              />
+            </div>
           ))}
         </div>
       ))}
+
+      {selectedProject && (
+        <div className="ProjectModal" onClick={() => setSelectedProject(null)}>
+          <div className="ProjectModalContent" onClick={(e) => e.stopPropagation()}>
+            <button className="close-btn" onClick={() => setSelectedProject(null)}>×</button>
+            <h2>{selectedProject.title}</h2>
+            <img src={selectedProject.image} alt={selectedProject.title} />
+            <p><strong>Category:</strong> {selectedProject.category}</p>
+            <p>{selectedProject.description}</p>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
