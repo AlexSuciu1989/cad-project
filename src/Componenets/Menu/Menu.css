@@ -1,0 +1,38 @@
+.MenuContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 2px #ffa500;
+  padding: 10px 20px;
+}
+
+.Menu {
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.Menu li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+.Menu li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.cta-button {
+  background-color: #ffa500;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #e69500;
+}

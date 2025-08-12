@@ -1,0 +1,15 @@
+.App {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: #2a4b5f;
+}
+
+body {
+  background-color: #f5eedc;
+  background-image: linear-gradient(to right, #2a4b5f31 1px, transparent 1px),
+    linear-gradient(to bottom, #2a4b5f31 1px, transparent 1px);
+  background-size: 30px 30px; /* Adjust spacing between lines */
+}

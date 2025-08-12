@@ -1,0 +1,21 @@
+[
+  {
+    "title": "About Terramech Mobility Lab",
+    "subtitle": "Engineering the Future of Mobility",
+    "description": "Terramech Mobility Lab is dedicated to pushing the boundaries of engineering through innovation, experimentation, and precision.",
+    "mission": "Our mission is to create robust, intelligent, and efficient mobility solutions for tomorrow's challenges.",
+    "values": ["Innovation", "Precision", "Sustainability", "Collaboration"],
+    "team": [
+      {
+        "name": "Victor-Alexandru Suciu",
+        "role": "Lead Engineer",
+        "bio": "Victor-Alexandru brings a wealth of experience in mechanical design and prototyping."
+      },
+      {
+        "name": "Oricine Sef",
+        "role": "Project Manager",
+        "bio": "Oricine ensures smooth project execution and team coordination."
+      }
+    ]
+  }
+]

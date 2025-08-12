@@ -1,0 +1,19 @@
+.Projects {
+  display: flex;
+  flex-direction: column;
+  gap: 40px; /* space between categories */
+  padding: 20px;
+}
+
+.CategorySection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.CategorySection h1 {
+  width: 100%;
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
