@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from "react";
-import "./Terms.css"; // Create this for styling
+import "./Terms.css";
 
 const Terms = () => {
   const [termsData, setTermsData] = useState(null);
 
   useEffect(() => {
-    fetch("/terms_and_conditions.json")
+    fetch(
+      "https://alex-suciu.homebuddy.ro/CAD/php/get_data.php?type=terms_and_conditions"
+    )
       .then((res) => res.json())
       .then((data) => setTermsData(data[0]))
       .catch((err) =>

@@ -10,7 +10,9 @@ const Contact = () => {
   });
 
   useEffect(() => {
-    fetch("/contact_info.json")
+    fetch(
+      "https://alex-suciu.homebuddy.ro/CAD/php/get_data.php?type=contact_info"
+    )
       .then((res) => res.json())
       .then((data) => setContactInfo(data[0]))
       .catch((err) => console.error("Failed to load contact info:", err));

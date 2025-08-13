@@ -7,7 +7,7 @@ function Projects() {
   const [selectedProject, setSelectedProject] = useState(null);
 
   useEffect(() => {
-    fetch("/database.json")
+    fetch("https://alex-suciu.homebuddy.ro/CAD/php/get_data.php?type=projects")
       .then((res) => res.json())
       .then((data) => setProjects(data))
       .catch((err) => console.error("Error loading projects:", err));
@@ -40,11 +40,21 @@ function Projects() {
 
       {selectedProject && (
         <div className="ProjectModal" onClick={() => setSelectedProject(null)}>
-          <div className="ProjectModalContent" onClick={(e) => e.stopPropagation()}>
-            <button className="close-btn" onClick={() => setSelectedProject(null)}>×</button>
+          <div
+            className="ProjectModalContent"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              className="close-btn"
+              onClick={() => setSelectedProject(null)}
+            >
+              ×
+            </button>
             <h2>{selectedProject.title}</h2>
             <img src={selectedProject.image} alt={selectedProject.title} />
-            <p><strong>Category:</strong> {selectedProject.category}</p>
+            <p>
+              <strong>Category:</strong> {selectedProject.category}
+            </p>
             <p>{selectedProject.description}</p>
           </div>
         </div>
