@@ -8,19 +8,22 @@ const Home = () => {
   const [latestProjects, setLatestProjects] = useState([]);
 
   useEffect(() => {
-    fetch("/home.json") // rename your JSON file to something like homeData.json
+    fetch("https://alex-suciu.homebuddy.ro/CAD/php/get_data.php?type=home")
       .then((res) => res.json())
       .then((data) => {
-        const content = data[0]; // assuming it's an array with one object
+        const content = data[0]; // Assuming it's an array with one object
         setHomeData(content);
 
         if (content.latest_projects) {
-          fetch("/database.json")
+          fetch(
+            "https://alex-suciu.homebuddy.ro/CAD/php/get_data.php?type=projects"
+          )
             .then((res) => res.json())
             .then((projects) => {
               const sorted = [...projects].sort((a, b) => b.id - a.id);
               setLatestProjects(sorted.slice(0, 3));
-            });
+            })
+            .catch((err) => console.error("Failed to load projects:", err));
         }
       })
       .catch((err) => console.error("Failed to load home data:", err));
