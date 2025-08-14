@@ -3,11 +3,6 @@ import "./Contact.css";
 
 const Contact = () => {
   const [contactInfo, setContactInfo] = useState(null);
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
 
   useEffect(() => {
     fetch(
@@ -18,19 +13,9 @@ const Contact = () => {
       .catch((err) => console.error("Failed to load contact info:", err));
   }, []);
 
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-
-    // Simulate sending email (you'd use a backend or service like EmailJS here)
-    alert(`Message sent to ${contactInfo.email}:\n\n${formData.message}`);
-    setFormData({ name: "", email: "", message: "" });
-  };
-
   if (!contactInfo) return <p>Loading...</p>;
+
+  const whatsappLink = `https://wa.me/${contactInfo.phone.replace(/\D/g, "")}`;
 
   return (
     <div className="contact-container">
@@ -42,7 +27,8 @@ const Contact = () => {
           <a href={`mailto:${contactInfo.email}`}>{contactInfo.email}</a>
         </p>
         <p>
-          <strong>Phone:</strong> {contactInfo.phone}
+          <strong>Phone:</strong>{" "}
+          <a href={`tel:${contactInfo.phone}`}>{contactInfo.phone}</a>
         </p>
         <p>
           <strong>Address:</strong>{" "}
@@ -56,33 +42,16 @@ const Contact = () => {
         </p>
       </div>
 
-      <form className="contact-form" onSubmit={handleSubmit}>
-        <input
-          type="text"
-          name="name"
-          placeholder="Your Name"
-          value={formData.name}
-          onChange={handleChange}
-          required
-        />
-        <input
-          type="email"
-          name="email"
-          placeholder="Your Email"
-          value={formData.email}
-          onChange={handleChange}
-          required
-        />
-        <textarea
-          name="message"
-          placeholder="Your Message"
-          rows="5"
-          value={formData.message}
-          onChange={handleChange}
-          required
-        />
-        <button type="submit">Send Message</button>
-      </form>
+      <div className="whatsapp-contact">
+        <a
+          href={whatsappLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="whatsapp-button"
+        >
+          📱 Message Us on WhatsApp
+        </a>
+      </div>
     </div>
   );
 };
