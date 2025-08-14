@@ -6,6 +6,7 @@ import Projects from "./Componenets/Projects/Projects";
 import About from "./Componenets/About/About";
 import Contact from "./Componenets/Contact/Contact";
 import Terms from "./Componenets/Terms/Terms";
+import Footer from "./Componenets/Footer/Footer";
 
 export default function App() {
   const [activeView, setActiveView] = useState("home");
@@ -31,6 +32,7 @@ export default function App() {
     <div className="App">
       <Menu setActiveView={setActiveView} />
       {renderView()}
+      <Footer />
     </div>
   );
 }
