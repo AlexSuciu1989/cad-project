@@ -8,7 +8,7 @@ const Home = () => {
   const [latestProjects, setLatestProjects] = useState([]);
 
   useEffect(() => {
-    fetch("https://alex-suciu.homebuddy.ro/CAD/php/get_data.php?type=home")
+    fetch("/database/homebudd_db_table_cad_home.json")
       .then((res) => res.json())
       .then((data) => {
         const content = data[0]; // Assuming it's an array with one object
@@ -16,7 +16,7 @@ const Home = () => {
 
         if (content.latest_projects) {
           fetch(
-            "https://alex-suciu.homebuddy.ro/CAD/php/get_data.php?type=projects"
+            "/database/homebudd_db_table_cad_projects.json"
           )
             .then((res) => res.json())
             .then((projects) => {

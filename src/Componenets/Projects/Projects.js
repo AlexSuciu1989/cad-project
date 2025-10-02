@@ -7,7 +7,7 @@ function Projects() {
   const [selectedProject, setSelectedProject] = useState(null);
 
   useEffect(() => {
-    fetch("https://alex-suciu.homebuddy.ro/CAD/php/get_data.php?type=projects")
+    fetch("/database/homebudd_db_table_cad_projects.json")
       .then((res) => res.json())
       .then((data) => setProjects(data))
       .catch((err) => console.error("Error loading projects:", err));

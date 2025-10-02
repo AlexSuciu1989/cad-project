@@ -1,0 +1,10 @@
+,{"type":"table","name":"cad_about_values","database":"homebudd_db","data":
+[
+{"id":"5","about_id":"1","value":"Precision"},
+{"id":"6","about_id":"1","value":"Innovation"},
+{"id":"7","about_id":"1","value":"Integrity"},
+{"id":"8","about_id":"1","value":"Collaboration"},
+{"id":"9","about_id":"1","value":"Excellence"},
+{"id":"10","about_id":"1","value":"Adaptability"}
+]
+}
