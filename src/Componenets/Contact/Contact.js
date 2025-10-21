@@ -6,7 +6,7 @@ const Contact = () => {
 
   useEffect(() => {
     fetch(
-      "https://alex-suciu.homebuddy.ro/CAD/php/get_data.php?type=contact_info"
+      "https://alexsuciu.ro/projects/inscripto/php/get_data.php?type=contact_info"
     )
       .then((res) => res.json())
       .then((data) => setContactInfo(data[0]))

@@ -6,7 +6,7 @@ const Terms = () => {
 
   useEffect(() => {
     fetch(
-      "https://alex-suciu.homebuddy.ro/CAD/php/get_data.php?type=terms_and_conditions"
+      "https://alexsuciu.ro/projects/inscripto/php/get_data.php?type=terms_and_conditions"
     )
       .then((res) => res.json())
       .then((data) => setTermsData(data[0]))

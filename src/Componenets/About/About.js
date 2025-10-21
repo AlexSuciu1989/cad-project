@@ -5,7 +5,7 @@ const About = () => {
   const [aboutData, setAboutData] = useState(null);
 
   useEffect(() => {
-    fetch("https://alex-suciu.homebuddy.ro/CAD/php/get_data.php?type=about_us")
+    fetch("https://alexsuciu.ro/projects/inscripto/php/get_data.php?type=about_us")
       .then((res) => res.json())
       .then((data) => setAboutData(data[0]))
       .catch((err) => console.error("Failed to load About Us data:", err));
