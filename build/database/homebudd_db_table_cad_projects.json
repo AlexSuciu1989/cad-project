@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1",
+    "image": "fiery_magic_broomstick.jpg",
+    "title": "Fiery Magic Broomstick",
+    "category": "3D Modeling and Drafting",
+    "description": "This project features a hand-crafted magical broomstick designed in Blender 4.2, blending fantasy and realism. The broomstick combines a rugged wooden handle with a bristled head infused with a glowing, fiery effect using Cycles rendering. I modeled the hard-surface handle and sculpted the bristles, applying procedural shaders to achieve the dynamic flame glow and textured wear. A key challenge was balancing the fire emission with realistic lighting, solved by adjusting the Principled Volume shader and adding an HDRI environment. This piece showcases skills in modeling, sculpting, shading, and lighting, ideal for fantasy game art or animation portfolios."
+  },
+  {
+    "id": "2",
+    "image": "medieval_crate_and_barrel.jpg",
+    "title": "Medieval Crate and Barrel",
+    "category": "3D Modeling and Drafting",
+    "description": "This project showcases a detailed medieval crate and barrel set, crafted in Blender 4.2 using Cycles for realistic rendering. The crate features a wooden structure with a custom diamond-shaped metal reinforcement, while the barrel includes textured wood planks and reinforced metal bands with rivets. I focused on procedural wood shaders and normal maps to enhance surface detail, overcoming challenges with seamless UV unwrapping and lighting consistency using an HDRI setup. This piece highlights skills in hard-surface modeling, texturing, and lighting, making it suitable for game environments or historical animation projects."
+  },
+  {
+    "id": "3",
+    "image": "project_img.jpg",
+    "title": "Project Example",
+    "category": "3D Print",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ab optio quis culpa omnis natus, incidunt cupiditate blanditiis beatae veniam minus quos voluptatibus exercitationem vero perspiciatis itaque repudiandae, ipsam, pariatur rem dolore voluptatum dolor enim at cumque! Repellat officia labore sunt enim rerum consectetur dolorum. Voluptate necessitatibus neque ducimus voluptatem tempora excepturi qui, tenetur repellat ratione doloremque optio nam impedit sit cumque recusandae quae expedita obcaecati? Aspernatur expedita dolorem, non optio nobis repellat, iste vel, quo facilis culpa ducimus possimus."
+  },
+  {
+    "id": "4",
+    "image": "project_img.jpg",
+    "title": "Project Example",
+    "category": "3D Print",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ab optio quis culpa omnis natus, incidunt cupiditate blanditiis beatae veniam minus quos voluptatibus exercitationem vero perspiciatis itaque repudiandae, ipsam, pariatur rem dolore voluptatum dolor enim at cumque! Repellat officia labore sunt enim rerum consectetur dolorum. Voluptate necessitatibus neque ducimus voluptatem tempora excepturi qui, tenetur repellat ratione doloremque optio nam impedit sit cumque recusandae quae expedita obcaecati? Aspernatur expedita dolorem, non optio nobis repellat, iste vel, quo facilis culpa ducimus possimus."
+  },
+  {
+    "id": "5",
+    "image": "project_img.jpg",
+    "title": "Project Example",
+    "category": "2D Print",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ab optio quis culpa omnis natus, incidunt cupiditate blanditiis beatae veniam minus quos voluptatibus exercitationem vero perspiciatis itaque repudiandae, ipsam, pariatur rem dolore voluptatum dolor enim at cumque! Repellat officia labore sunt enim rerum consectetur dolorum. Voluptate necessitatibus neque ducimus voluptatem tempora excepturi qui, tenetur repellat ratione doloremque optio nam impedit sit cumque recusandae quae expedita obcaecati? Aspernatur expedita dolorem, non optio nobis repellat, iste vel, quo facilis culpa ducimus possimus."
+  },
+  {
+    "id": "6",
+    "image": "project_img.jpg",
+    "title": "Project Example",
+    "category": "2D Print",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ab optio quis culpa omnis natus, incidunt cupiditate blanditiis beatae veniam minus quos voluptatibus exercitationem vero perspiciatis itaque repudiandae, ipsam, pariatur rem dolore voluptatum dolor enim at cumque! Repellat officia labore sunt enim rerum consectetur dolorum. Voluptate necessitatibus neque ducimus voluptatem tempora excepturi qui, tenetur repellat ratione doloremque optio nam impedit sit cumque recusandae quae expedita obcaecati? Aspernatur expedita dolorem, non optio nobis repellat, iste vel, quo facilis culpa ducimus possimus."
+  },
+  {
+    "id": "7",
+    "image": "project_img.jpg",
+    "title": "Project Example",
+    "category": "2D Print",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ab optio quis culpa omnis natus, incidunt cupiditate blanditiis beatae veniam minus quos voluptatibus exercitationem vero perspiciatis itaque repudiandae, ipsam, pariatur rem dolore voluptatum dolor enim at cumque! Repellat officia labore sunt enim rerum consectetur dolorum. Voluptate necessitatibus neque ducimus voluptatem tempora excepturi qui, tenetur repellat ratione doloremque optio nam impedit sit cumque recusandae quae expedita obcaecati? Aspernatur expedita dolorem, non optio nobis repellat, iste vel, quo facilis culpa ducimus possimus."
+  },
+  {
+    "id": "8",
+    "image": "project_img.jpg",
+    "title": "Project Example",
+    "category": "Art",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ab optio quis culpa omnis natus, incidunt cupiditate blanditiis beatae veniam minus quos voluptatibus exercitationem vero perspiciatis itaque repudiandae, ipsam, pariatur rem dolore voluptatum dolor enim at cumque! Repellat officia labore sunt enim rerum consectetur dolorum. Voluptate necessitatibus neque ducimus voluptatem tempora excepturi qui, tenetur repellat ratione doloremque optio nam impedit sit cumque recusandae quae expedita obcaecati? Aspernatur expedita dolorem, non optio nobis repellat, iste vel, quo facilis culpa ducimus possimus."
+  },
+  {
+    "id": "9",
+    "image": "project_img.jpg",
+    "title": "Project Example",
+    "category": "Art",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ab optio quis culpa omnis natus, incidunt cupiditate blanditiis beatae veniam minus quos voluptatibus exercitationem vero perspiciatis itaque repudiandae, ipsam, pariatur rem dolore voluptatum dolor enim at cumque! Repellat officia labore sunt enim rerum consectetur dolorum. Voluptate necessitatibus neque ducimus voluptatem tempora excepturi qui, tenetur repellat ratione doloremque optio nam impedit sit cumque recusandae quae expedita obcaecati? Aspernatur expedita dolorem, non optio nobis repellat, iste vel, quo facilis culpa ducimus possimus."
+  },
+  {
+    "id": "10",
+    "image": "project_img.jpg",
+    "title": "Project Example",
+    "category": "Art",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ab optio quis culpa omnis natus, incidunt cupiditate blanditiis beatae veniam minus quos voluptatibus exercitationem vero perspiciatis itaque repudiandae, ipsam, pariatur rem dolore voluptatum dolor enim at cumque! Repellat officia labore sunt enim rerum consectetur dolorum. Voluptate necessitatibus neque ducimus voluptatem tempora excepturi qui, tenetur repellat ratione doloremque optio nam impedit sit cumque recusandae quae expedita obcaecati? Aspernatur expedita dolorem, non optio nobis repellat, iste vel, quo facilis culpa ducimus possimus."
+  }
+]

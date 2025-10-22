@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Home.css";
 import Project from "../Projects/Project";
-import headImg from "./project_img.jpg";
 
 const Home = () => {
   const [homeData, setHomeData] = useState(null);
@@ -40,7 +39,7 @@ const Home = () => {
           <p className="description">{homeData.headline}</p>
           <p className="mission">{homeData.mission}</p>
         </div>
-        <img src={headImg} className="headImg" alt="Promo" />
+        <img src="./project_img.jpg" className="headImg" alt="Promo" />
       </div>
 
       <div className="cta">

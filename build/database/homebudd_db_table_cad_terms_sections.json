@@ -1,0 +1,13 @@
+,{"type":"table","name":"cad_terms_sections","database":"homebudd_db","data":
+[
+{"id":"1","terms_id":"1","heading":"1. Acceptance of Terms","content":"By accessing and using the website Inscripto, you agree to be bound by these Terms and Conditions. If you do not agree with any part of these terms, please do not use the website."},
+{"id":"2","terms_id":"1","heading":"2. Eligibility","content":"This website is intended for users aged 13 and above. By using this site, you confirm that you meet this age requirement."},
+{"id":"3","terms_id":"1","heading":"3. Purpose of the Website","content":"Inscripto is a personal portfolio website showcasing the work and projects. It is intended for informational and professional presentation purposes only."},
+{"id":"4","terms_id":"1","heading":"4. Data Collection and Privacy","content":"Inscripto does not collect, store, or process any personal data from its visitors. No cookies, tracking technologies, or analytics tools are used. Your privacy is fully respected."},
+{"id":"9","terms_id":"1","heading":"5. Device Access","content":"Inscripto does not access or interact with any device features, including but not limited to phone sensors, cameras, or location services."},
+{"id":"10","terms_id":"1","heading":"6. Intellectual Property","content":"All content on Inscripto, including text, images, and design elements, is the intellectual property of Inscripto unless otherwise stated. Unauthorized use or reproduction is prohibited."},
+{"id":"11","terms_id":"1","heading":"7. Limitation of Liability","content":"Inscripto is provided \"as is\" without any warranties. The website owner is not liable for any damages arising from the use or inability to use the website."},
+{"id":"12","terms_id":"1","heading":"8. Changes to Terms","content":"These Terms and Conditions may be updated from time to time. Continued use of the website after changes are made constitutes acceptance of the new terms."},
+{"id":"13","terms_id":"1","heading":"9. Governing Law","content":"These Terms are governed by the laws of Romania. Any disputes arising from the use of this website shall be subject to the jurisdiction of the Romanian courts."}
+]
+}
